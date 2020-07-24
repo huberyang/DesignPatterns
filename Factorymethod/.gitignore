@@ -1,7 +1,1 @@
-.project
-.settings
-.classpath
-/target
-.idea
-
-/Factorymethod.iml
+/factorymethod.iml
