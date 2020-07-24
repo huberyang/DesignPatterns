@@ -5,3 +5,4 @@ Design Patterns
 02-FactoryMethod-工厂方法模式  
 03-AbstractFactory-抽象工厂模式  
 04-SingletonMode-单例模式  
+05-PrototypeMode-原型模式  
