@@ -20,9 +20,4 @@ public class AnimalFactory extends AbstractFactory {
         Animal ani = (Animal) Class.forName(animal).newInstance();
         return ani;
     }
-
-    @Override
-    public Plant createPlant(String plant) {
-        return null;
-    }
 }

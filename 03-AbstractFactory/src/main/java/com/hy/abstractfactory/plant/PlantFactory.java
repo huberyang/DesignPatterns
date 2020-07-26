@@ -15,11 +15,6 @@ import com.hy.abstractfactory.animal.Animal;
 public class PlantFactory extends AbstractFactory {
 
     @Override
-    public Animal createAnimal(String animal) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
-        return null;
-    }
-
-    @Override
     public Plant createPlant(String plant) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         Plant pt = (Plant) Class.forName(plant).newInstance();
         return pt;

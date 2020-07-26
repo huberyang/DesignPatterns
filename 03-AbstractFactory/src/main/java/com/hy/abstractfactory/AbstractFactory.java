@@ -15,6 +15,10 @@ import com.hy.abstractfactory.plant.Plant;
  */
 public abstract class AbstractFactory {
 
-    public abstract Animal createAnimal(String animal) throws ClassNotFoundException, IllegalAccessException, InstantiationException;
-    public abstract Plant createPlant(String plant) throws ClassNotFoundException, IllegalAccessException, InstantiationException;
+    public Animal createAnimal(String animal) throws ClassNotFoundException, IllegalAccessException, InstantiationException{
+        return null;
+    };
+    public Plant createPlant(String plant) throws ClassNotFoundException, IllegalAccessException, InstantiationException{
+        return null;
+    };
 }
