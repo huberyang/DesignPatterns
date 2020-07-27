@@ -1,0 +1,23 @@
+1.hugury mode
+	在类加载时即直接创建对应的对象
+2.lazy mode
+	在需要使用类对象时才创建
+3.double check mode	
+	
+	1.没有把针对整个方法使用同步，仅仅对关键代码使用同步，这样可以提高系统效率
+	public static Panda getPanda() {
+        //第一次检查
+        if (panda == null) {
+            /**
+             * 由于存在多个线程同时进入此判断的情况，如果不加第二次判断，就会存在两个线程创建两个对象的情况，所以我们需要进行第二次判断
+			 * 虽然增加了第二次判断，但是这部分内容仅会在线程第一次进入时调用，之后就不会被调用，所以代码依旧高效
+             */
+            synchronized (Panda.class) {
+                //第二次检查
+                if (panda == null) {
+                    panda = new Panda();
+                }
+            }
+        }
+        return panda;
+    }
