@@ -28,6 +28,5 @@ public class MainTest {
         operation.operate();
         System.out.println(operation.result());
 
-
     }
 }

@@ -15,6 +15,9 @@ public class ScannerFactory {
 
     private static Scanner scanner;
 
+    /**
+     * when class used by system, this part will be called
+     */
     static {
         scanner=new Scanner(System.in);
     }
