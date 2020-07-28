@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @Copyright: 2019 Inc. All rights reserved.
  */
-public class Dog implements Cloneable{
+public class Dog implements Cloneable {
 
     private String name;
     private int age;
@@ -44,13 +44,13 @@ public class Dog implements Cloneable{
         this.toys = toys;
     }
 
-    public Dog clone(){
+    public Dog clone() {
         try {
-            List<String> toys =new ArrayList<>();
-            for(String toy:this.getToys()){
+            List<String> toys = new ArrayList<>();
+            for (String toy : this.getToys()) {
                 toys.add(toy);
             }
-            Dog dog = (Dog)super.clone();
+            Dog dog = (Dog) super.clone();
             dog.setToys(toys);
 
             return dog;

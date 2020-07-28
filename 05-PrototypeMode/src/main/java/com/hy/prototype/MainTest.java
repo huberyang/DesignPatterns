@@ -27,12 +27,12 @@ public class MainTest {
         dog.setName("wang cai");
         dog.setAge(3);
 
-        List<String> toys =new ArrayList<>();
+        List<String> toys = new ArrayList<>();
         toys.add("Ball");
         toys.add("Wooden stick");
         dog.setToys(toys);
 
-        Dog dog2= dog.clone();
+        Dog dog2 = dog.clone();
 
         dog.getToys().add("Water");
 
