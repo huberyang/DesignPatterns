@@ -1,4 +1,4 @@
-package com.hy.adapter;
+package com.hy.adapter1;
 
 /**
  * author: hubery yang
@@ -12,9 +12,7 @@ package com.hy.adapter;
 public class MainTest {
     public static void main(String[] args) {
         Voltage CHINA=new China220(220);
-        ConcreteAdapter realAdapter = new ConcreteAdapter();
-        realAdapter.setChINA(CHINA);
-        Voltage USA =realAdapter.CHINAToUSA();
+        Voltage USA = new ConcreteAdapter().CHINAToUSA(CHINA);
         System.out.println("after transform: "+USA.output());
     }
 }
