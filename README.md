@@ -16,4 +16,13 @@ Design Patterns
 13-CompositeMode-组合模式  
 14-BridgeMode-桥接模式  
 15-AdapterMode-适配器模式  
+16-InterpreterMOde-解释器模式  
+17-MediatorMode-中介者模式  
+18-ChainofRespMode-责任链模式
+19-TempalteMode-模板模式  
+20-MementoMode-备忘录模式  
+21-StateMode-状态模式  
+22-CommandMode-命令模式  
+23-VisitorMode-访问者模式
+
 
