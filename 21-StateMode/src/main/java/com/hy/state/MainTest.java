@@ -11,6 +11,17 @@ package com.hy.state;
  */
 public class MainTest {
     public static void main(String[] args) {
-        
+        Dog dog =new Dog();
+        dog.setTime(18);
+        dog.behavior();
+
+        dog.setTime(7);
+        dog.behavior();
+
+        dog.setTime(12);
+        dog.behavior();
+
+        dog.setTime(723);
+        dog.behavior();
     }
 }
