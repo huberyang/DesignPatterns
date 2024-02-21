@@ -1,4 +1,15 @@
-/target
-/SimpleFactory.iml
-/.idea/
+# intellij files
+.idea
+.idea/
+*.iml
+*.ipr
+*.iws
 
+# build files
+build/
+
+# target files
+target/
+
+.gradle
+.gradle/*
