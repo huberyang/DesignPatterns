@@ -29,8 +29,8 @@ public class MainTest {
          * 3.通过工厂创建，并且根据类名判断创建哪一个类的实例
          * 创建对象不够灵活，当新的类需要常见对象时任然需要修改工厂类
          */
-        AnimalFactory.getAnimal("dog").voice();
-        AnimalFactory.getAnimal("cat").voice();
+//        AnimalFactory.getAnimal("dog").voice();
+//        AnimalFactory.getAnimal("cat").voice();
 
         /**
          * 4.通完整类名直接创建

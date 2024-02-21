@@ -47,10 +47,4 @@ public class AnimalFactory {
         return (Animal) Class.forName(ClassName).newInstance();
     }
 
-
-
-
-
-
-
 }
