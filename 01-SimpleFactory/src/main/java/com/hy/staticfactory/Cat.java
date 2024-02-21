@@ -12,7 +12,7 @@ package com.hy.staticfactory;
 public class Cat implements Animal {
 
     @Override
-    public void voice(){
+    public void voice() {
         System.out.println("MiaoMiao...");
     }
 }
